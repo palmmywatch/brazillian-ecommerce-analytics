@@ -4,8 +4,12 @@
 # ==================================================
 
 data_utils:
+  kaggle_dataset: 'olistbr/brazilian-ecommerce'
+
   # raw_data_path: '/ABS/PATH/brazillian-ecommerce-analytics/data/raw'
   raw_data_path: '/Users/palmmy/pyFreelance/brazillian-ecommerce-analytics/data/raw'
-  kaggle_dataset: 'olistbr/brazilian-ecommerce'
+  
+  PROCESSED_DATA_PATH: '/Users/palmmy/pyFreelance/brazillian-ecommerce-analytics/data/processed'
+  DB_PATH: '/Users/palmmy/pyFreelance/brazillian-ecommerce-analytics/data/processed/ecommerce.db'
 
 
